@@ -1,0 +1,42 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.qr-container {
+  background-color: white;
+  height: 450px;
+  width: 300px;
+  border-radius: 20px;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.qr-image {
+  width: 90%;
+  border-radius: 20px;
+  margin-top: 15px;
+}
+
+.text-container {
+  font-size: 9px;
+  padding: 0px 40px;
+  font-family: 'Outfit';
+  font-weight: 700;
+}
+
+.text-container h1 {
+  color: hsl(218, 44%, 22%);
+}
+
+.text-container p {
+  font-size: 13px;
+  color: hsl(220, 15%, 55%);
+  font-weight: 300;
+}
